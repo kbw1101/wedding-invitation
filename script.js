@@ -1,18 +1,18 @@
 const photoGallery = [
   { src: "assets/photos/1.jpg", alt: "나무 그늘 아래 나란히 앉은 두 사람" },
   { src: "assets/photos/2.jpg", alt: "꽃이 핀 담장 앞에 나란히 선 두 사람" },
-  { src: "assets/photos/4.jpg", alt: "햇살이 비치는 바닷가를 걷는 두 사람" },
-  { src: "assets/photos/7.jpg", alt: "바닷가에서 손을 잡고 마주 선 두 사람" },
-  { src: "assets/photos/8.jpg", alt: "나무 아래에서 손을 맞잡은 두 사람" },
-  { src: "assets/photos/10.jpg", alt: "노을이 물든 바닷가에서 손을 잡고 걷는 두 사람" },
-  { src: "assets/photos/11.jpg", alt: "저녁 바다를 향해 함께 걸어가는 두 사람" },
-  { src: "assets/photos/12.jpg", alt: "해 질 무렵 바닷가에서 서로를 바라보는 두 사람" },
-  { src: "assets/photos/13.jpg", alt: "야자수 사이로 노을을 바라보는 두 사람의 실루엣" },
-  { src: "assets/photos/14.jpg", alt: "야자수가 보이는 해변에서 나란히 앉은 두 사람" },
-  { src: "assets/photos/16.jpg", alt: "야자수 사이 노을 아래 입맞추는 두 사람의 실루엣" },
-  { src: "assets/photos/18.jpg", alt: "야자수 그늘 아래 나란히 앉은 두 사람" },
-  { src: "assets/photos/19.jpg", alt: "야자수와 바다를 배경으로 나란히 선 두 사람" },
-  { src: "assets/photos/20.jpg", alt: "해변에서 나란히 앉아 있는 두 사람" }
+  { src: "assets/photos/3.jpg", alt: "햇살이 비치는 바닷가를 걷는 두 사람" },
+  { src: "assets/photos/4.jpg", alt: "바닷가에서 손을 잡고 마주 선 두 사람" },
+  { src: "assets/photos/5.jpg", alt: "야자수 그늘 아래 나란히 앉은 두 사람" },
+  { src: "assets/photos/6.jpg", alt: "야자수와 바다를 배경으로 나란히 선 두 사람" },
+  { src: "assets/photos/7.jpg", alt: "나무 아래에서 손을 맞잡은 두 사람" },
+  { src: "assets/photos/8.jpg", alt: "노을이 물든 바닷가에서 손을 잡고 걷는 두 사람" },
+  { src: "assets/photos/9.jpg", alt: "저녁 바다를 향해 함께 걸어가는 두 사람" },
+  { src: "assets/photos/10.jpg", alt: "해 질 무렵 바닷가에서 서로를 바라보는 두 사람" },
+  { src: "assets/photos/11.jpg", alt: "야자수가 보이는 해변에서 나란히 앉은 두 사람" },
+  { src: "assets/photos/12.jpg", alt: "해변에서 나란히 앉아 있는 두 사람" },
+  { src: "assets/photos/13.jpg", alt: "야자수 사이 노을 아래 입맞추는 두 사람의 실루엣" },
+  { src: "assets/photos/14.jpg", alt: "야자수 사이로 노을을 바라보는 두 사람의 실루엣" }
 ];
 
 const galleryGrid = document.getElementById("gallery-grid");
