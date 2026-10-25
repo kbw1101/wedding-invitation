@@ -1,16 +1,23 @@
 const photoGallery = [
-  { src: "assets/photos/B__0053_1.jpg", alt: "나무 그늘 아래 나란히 앉은 두 사람" },
-  { src: "assets/photos/B__0134_1.jpg", alt: "꽃이 핀 담장 앞에 나란히 선 두 사람" },
-  { src: "assets/photos/B__0136_1.jpg", alt: "초록 담장과 꽃을 배경으로 함께한 순간" },
-  { src: "assets/photos/B__0471_1.jpg", alt: "햇살이 비치는 바닷가를 걷는 두 사람" },
-  { src: "assets/photos/B__0484_1.jpg", alt: "바닷가에서 마주 보는 두 사람" },
-  { src: "assets/photos/B__0508_1.jpg", alt: "파란 바다를 배경으로 마주 선 두 사람" },
-  { src: "assets/photos/B__0815_1.jpg", alt: "나무 아래에서 손을 맞잡은 두 사람" },
-  { src: "assets/photos/B__0946_1.jpg", alt: "노을이 지는 바다 앞에 선 두 사람" },
-  { src: "assets/photos/B__0963_1.jpg", alt: "노을이 물든 바닷가에서 손을 잡고 걷는 두 사람" },
-  { src: "assets/photos/B__1012_1.jpg", alt: "저녁 바다를 향해 함께 걸어가는 두 사람" },
-  { src: "assets/photos/B__1162_1.jpg", alt: "해 질 무렵 바닷가에서 서로를 바라보는 두 사람" },
-  { src: "assets/photos/B__1240_1.jpg", alt: "야자수 사이로 노을을 바라보는 두 사람의 실루엣" }
+  { src: "assets/photos/1.jpg", alt: "나무 그늘 아래 나란히 앉은 두 사람" },
+  { src: "assets/photos/2.jpg", alt: "꽃이 핀 담장 앞에 나란히 선 두 사람" },
+  { src: "assets/photos/3.jpg", alt: "초록 담장과 꽃을 배경으로 함께한 순간" },
+  { src: "assets/photos/4.jpg", alt: "햇살이 비치는 바닷가를 걷는 두 사람" },
+  { src: "assets/photos/5.jpg", alt: "바닷가에서 마주 보는 두 사람" },
+  { src: "assets/photos/6.jpg", alt: "파란 바다를 배경으로 마주 선 두 사람" },
+  { src: "assets/photos/7.jpg", alt: "바닷가에서 손을 잡고 마주 선 두 사람" },
+  { src: "assets/photos/8.jpg", alt: "나무 아래에서 손을 맞잡은 두 사람" },
+  { src: "assets/photos/9.jpg", alt: "노을이 지는 바다 앞에 선 두 사람" },
+  { src: "assets/photos/10.jpg", alt: "노을이 물든 바닷가에서 손을 잡고 걷는 두 사람" },
+  { src: "assets/photos/11.jpg", alt: "저녁 바다를 향해 함께 걸어가는 두 사람" },
+  { src: "assets/photos/12.jpg", alt: "해 질 무렵 바닷가에서 서로를 바라보는 두 사람" },
+  { src: "assets/photos/13.jpg", alt: "야자수 사이로 노을을 바라보는 두 사람의 실루엣" },
+  { src: "assets/photos/14.jpg", alt: "야자수가 보이는 해변에서 나란히 앉은 두 사람" },
+  { src: "assets/photos/15.jpg", alt: "노을 진 바닷가에서 서로를 바라보는 두 사람" },
+  { src: "assets/photos/16.jpg", alt: "야자수 사이 노을 아래 입맞추는 두 사람의 실루엣" },
+  { src: "assets/photos/18.jpg", alt: "야자수 그늘 아래 나란히 앉은 두 사람" },
+  { src: "assets/photos/19.jpg", alt: "야자수와 바다를 배경으로 나란히 선 두 사람" },
+  { src: "assets/photos/20.jpg", alt: "해변에서 나란히 앉아 있는 두 사람" }
 ];
 
 const galleryGrid = document.getElementById("gallery-grid");
@@ -167,11 +174,6 @@ window.addEventListener("load", async function () {
     showToast("자동 재생이 차단됐어요. 오른쪽 아래 음악 버튼을 눌러주세요.");
   }
 }, { once: true });
-
-document.getElementById("guestbook-form").addEventListener("submit", function (event) {
-  event.preventDefault();
-  showToast("방명록은 추후 저장 기능을 연결한 뒤 이용하실 수 있어요. 입력 내용은 저장되지 않았습니다.");
-});
 
 async function copyText(text, successMessage) {
   try {

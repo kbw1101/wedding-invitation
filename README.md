@@ -16,9 +16,8 @@
 
 ## 자료와 추후 입력 항목
 
-- 원본 사진은 `photos/`, 웹 표시용으로 압축한 사진은 `assets/photos/`에 있습니다.
+- 원본 사진은 `photos/1.jpg`부터 `photos/20.jpg`, 웹 표시용 압축본은 `assets/photos/1.jpg`부터 `assets/photos/20.jpg`에 있습니다. `photos/17.jpg`는 상단 대표 사진이며, 갤러리에는 나머지 19장이 표시됩니다.
 - 배경 음악은 `musics/Birds_of_feather_acoustic.mp3`입니다.
 - 신부 측 가족 전화번호와 양가 계좌번호는 확인 후 `index.html`에 반영하면 됩니다.
-- 방명록 폼은 현재 정적 미리보기입니다. 입력 내용은 전송되거나 저장되지 않으며, 실제 저장을 원할 때 별도 서비스를 연결해야 합니다.
 - 셔틀버스 운행 정보는 예식장 확인 후 `index.html`의 오시는 길 섹션에 추가하면 됩니다.
 - 지도는 기본적으로 OpenStreetMap을 페이지 안에 표시합니다. 카카오 지도를 사용하려면 `map-config.js`에 카카오 JavaScript 키를 입력하고, Kakao Developers에서 GitHub Pages 도메인을 JavaScript SDK 도메인으로 등록하세요. 카카오 지도를 사용할 수 없을 때는 기본 지도가 계속 표시됩니다.

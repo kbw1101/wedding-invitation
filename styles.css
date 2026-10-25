@@ -976,61 +976,6 @@ summary:focus-visible {
   font-size: 11px;
 }
 
-.guestbook-section {
-  padding-bottom: 110px;
-}
-
-.guestbook-section .section-title {
-  margin-bottom: 7px;
-}
-
-.guestbook-form {
-  display: grid;
-  max-width: 510px;
-  gap: 9px;
-  margin: 0 auto;
-  padding: 25px;
-  border: 1px solid #e4dcd4;
-  background: rgb(255 253 250 / 72%);
-  text-align: left;
-}
-
-.guestbook-form label {
-  margin-top: 6px;
-  color: #665f58;
-  font-size: 11px;
-}
-
-.guestbook-form input,
-.guestbook-form textarea {
-  width: 100%;
-  min-height: 45px;
-  padding: 11px 12px;
-  border: 1px solid #e2dad2;
-  border-radius: 0;
-  background: #fffdfa;
-  font-size: 13px;
-}
-
-.guestbook-form input::placeholder,
-.guestbook-form textarea::placeholder {
-  color: #aaa198;
-  font-size: 12px;
-}
-
-.guestbook-form textarea {
-  min-height: 118px;
-  resize: vertical;
-}
-
-.form-note {
-  margin: 3px 0 8px;
-  color: #8d837a;
-  font-size: 10px;
-  line-height: 1.7;
-}
-
-.form-submit,
 .share-button {
   display: inline-flex;
   min-height: 48px;
@@ -1044,13 +989,8 @@ summary:focus-visible {
   transition: background .2s ease, color .2s ease;
 }
 
-.form-submit:hover,
 .share-button:hover {
   background: #7e4f4b;
-}
-
-.form-submit span {
-  font-size: 15px;
 }
 
 .share-section {
@@ -1612,15 +1552,6 @@ summary:focus-visible {
   .account-status {
     gap: 7px;
     font-size: 9px;
-  }
-
-  .guestbook-section {
-    padding: 80px 17px 84px;
-  }
-
-  .guestbook-form {
-    gap: 8px;
-    padding: 19px 16px;
   }
 
   .share-section {
